@@ -1,0 +1,15 @@
+@import '/src/styles/base.scss';
+
+.item {
+  background-color: $primary-color;
+  color: $font-color;
+  padding: 10px 20px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
